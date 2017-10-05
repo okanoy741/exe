@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 <title>Grade Cal</title>
@@ -44,9 +44,9 @@ ini_set('display_errors', 1);
 error_reporting(~0);
 
 $serverName = "localhost";
-$userName = "root";
-$userPassword = "";
-$dbName = "gradeexe";
+$userName = "id3154242_okanoy741";
+$userPassword = "okanoy00";
+$dbName = "id3154242_gradeexe";
 
 $objCon = mysqli_connect($serverName,$userName,$userPassword,$dbName);
 if (!$objCon) {
@@ -105,14 +105,14 @@ if(!$objQuery)
 <!-- body dynamic rows -->
 <tbody></tbody>
 </table>
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><p>กรอกคะแนน 0 - 100</p>
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><p>กรอกคะแนน 0 - 100 และรหัสวิชา</p>
 <input type="button" id="createRows" value="Add">
 <input type="button" id="deleteRows" value="Del">
 <input type="button" id="clearRows" value="Clear">
  <center>
  <br>
  <input type="hidden" id="hdnCount" name="hdnCount">
-<input type="submit" value="Submit">
+<input type="submit" value="Submit"><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
  </form>
 </body>
 </html>

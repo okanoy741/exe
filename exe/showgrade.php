@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 <title>Grade Cal</title>
@@ -44,9 +44,9 @@ ini_set('display_errors', 1);
 error_reporting(~0);
 
 $serverName = "localhost";
-$userName = "root";
-$userPassword = "";
-$dbName = "gradeexe";
+$userName = "id3154242_okanoy741";
+$userPassword = "okanoy00";
+$dbName = "id3154242_gradeexe";
 
 $objCon = mysqli_connect($serverName,$userName,$userPassword,$dbName);
 if (!$objCon) {
@@ -139,9 +139,9 @@ ini_set('display_errors', 1);
 error_reporting(~0);
 
 $serverName = "localhost";
-$userName = "root";
-$userPassword = "";
-$dbName = "gradeexe";
+$userName = "id3154242_okanoy741";
+$userPassword = "okanoy00";
+$dbName = "id3154242_gradeexe";
 
 $objCon = mysqli_connect($serverName,$userName,$userPassword,$dbName);
 if (!$objCon) {
@@ -234,9 +234,9 @@ ini_set('display_errors', 1);
 error_reporting(~0);
 
 $serverName = "localhost";
-$userName = "root";
-$userPassword = "";
-$dbName = "gradeexe";
+$userName = "id3154242_okanoy741";
+$userPassword = "okanoy00";
+$dbName = "id3154242_gradeexe";
 
 $objCon = mysqli_connect($serverName,$userName,$userPassword,$dbName);
 if (!$objCon) {

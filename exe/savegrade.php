@@ -1,4 +1,4 @@
-<html>
+﻿<html>
 <head>
 <title>Grade Cal</title>
 </head>
@@ -8,9 +8,9 @@
 	error_reporting(~0);
 
 	$serverName = "localhost";
-	$userName = "root";
-	$userPassword = "";
-	$dbName = "gradeexe";
+$userName = "id3154242_okanoy741";
+$userPassword = "okanoy00";
+$dbName = "id3154242_gradeexe";
 
 	$conn = mysqli_connect($serverName,$userName,$userPassword,$dbName);
 
@@ -29,7 +29,7 @@
 
 	echo "Record add successfully";
 	mysqli_close($conn);
-	header("location:showgrade.php");
-?>
+?><br>
+<a href="showgrade.php"><input type="button" id="createRows" value="Show Grade"></a>
 </body>
 </html>
