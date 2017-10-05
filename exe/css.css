@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+table{
+	margin-left: 20%;
+	float:left;
+}
+#myTable{
+	margin-left: 0;
+}
+
